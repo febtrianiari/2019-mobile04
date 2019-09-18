@@ -54,8 +54,4 @@ public class ImplicitIntentActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(intent, GALLERY_REQUEST_CODE);
     }
-
-    public void handleImplicitIntent(View view) {
-        
-    }
 }
